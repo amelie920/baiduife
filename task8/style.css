@@ -1,0 +1,74 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.wrap:before,.wrap:after{
+	 display: table;
+    content:" ";
+    clear: both;
+}
+.wrap{
+	padding: 0 10px 0 10px;
+}
+[class*="col-"]{
+	float: left;
+	height: 50px;
+	margin: 20px 10px 0 10px;
+	background: #eee;
+	border: 1px solid #000;
+}
+@media(min-width: 768px){
+	.col-md-12 {width: calc(100% - 22px)} 
+	.col-md-11 {width: calc(91.666667% - 22px)} 
+	.col-md-10 {width: calc(83.333333% - 22px)} 
+	.col-md-9  {width: calc(75% - 22px)} 
+	.col-md-8  {width: calc(66.666667% - 22px)} 
+	.col-md-7  {width: calc(58.333333% -  22px)} 
+	.col-md-6  {width: calc(50% - 22px)} 
+	.col-md-5  {width: calc(41.666667% - 22px)} 
+	.col-md-4  {width: calc(33.333333% - 22px)} 
+	.col-md-3  {width: calc(25% - 22px)} 
+	.col-md-2  {width: calc(16.666667% - 22px)} 
+	.col-md-1  {width: calc(8.3333333% - 22px)} 
+
+    .col-md-12:after{content:"12栏";}
+    .col-md-11:after{content:"11栏";}
+    .col-md-10:after{content:"10栏";}
+    .col-md-9:after{content:"9栏";}
+    .col-md-8:after{content:"8栏";}
+    .col-md-7:after{content:"7栏";}
+    .col-md-6:after{content:"6栏";}
+    .col-md-5:after{content:"5栏";}
+    .col-md-4:after{content:"4栏";}
+    .col-md-3:after{content:"3栏";}
+    .col-md-2:after{content:"2栏";}
+    .col-md-1:after{content:"1栏";}
+}
+
+@media(max-width: 768px){
+	.col-sm-12 {width: calc(100% - 22px)} 
+	.col-sm-11 {width: calc(91.666667% - 22px)} 
+	.col-sm-10 {width: calc(83.333333% - 22px)} 
+	.col-sm-9  {width: calc(75% - 22px)} 
+	.col-sm-8  {width: calc(66.666667% - 22px)} 
+	.col-sm-7  {width: calc(58.333333% -  22px)} 
+	.col-sm-6  {width: calc(50% - 22px)} 
+	.col-sm-5  {width: calc(41.666667% - 22px)} 
+	.col-sm-4  {width: calc(33.333333% - 22px)} 
+	.col-sm-3  {width: calc(25% - 22px)} 
+	.col-sm-2  {width: calc(16.666667% - 22px)} 
+	.col-sm-1  {width: calc(8.3333333% - 22px)} 
+    
+    .col-sm-12:after{content:"12栏";}
+    .col-sm-11:after{content:"11栏";}
+    .col-sm-10:after{content:"10栏";}
+    .col-sm-9:after{content:"9栏";}
+    .col-sm-8:after{content:"8栏";}
+    .col-sm-7:after{content:"7栏";}
+    .col-sm-6:after{content:"6栏";}
+    .col-sm-5:after{content:"5栏";}
+    .col-sm-4:after{content:"4栏";}
+    .col-sm-3:after{content:"3栏";}
+    .col-sm-2:after{content:"2栏";}
+    .col-sm-1:after{content:"1栏";}
+}
