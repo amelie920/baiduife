@@ -154,6 +154,7 @@
 }
 #search{
 	background: url(../img/search-pic.jpg) no-repeat;
+	background-size: 100% 100%;
 	width: 100%;
 	height: 350px;
     text-align: center;
@@ -192,6 +193,18 @@
     height: 30px;
 
 }
-.select-box div span{
-	background:red; 
+.select-box span{
+  position: relative;
+  left: 10px;
+  top: 2px;
+  bottom: 2px;
+}
+.select-box i{
+	display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: #BE4F48;
+    float: right;
+    margin: 6px 6px;
+    padding: 2px 2px;
 }
