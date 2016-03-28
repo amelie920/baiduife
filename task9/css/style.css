@@ -478,11 +478,11 @@ i{
 }
 
 .deal-num .color-block{
+	float: right;
 	width: 60px;
 	height:50px;
-	float: right;
-    margin: 10px 10px;
-    margin-left: 71px;
+      margin: 10px 10px;
+      margin-left: 71px;
 }
 .green{
 	background: #36A9B2;
